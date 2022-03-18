@@ -1,0 +1,26 @@
+.Hero{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 33%;
+}
+.HeroDiv{
+    padding-top: 40px;
+}
+/* @media (max-width: 768px){
+    .Hero{
+        width: 37%;
+    }
+} */
+@media (max-width: 576px){
+    .Hero{
+        width: 70%;
+    }
+    .HeroDiv{
+        padding-top: 100px;
+    }
+}
+/* @media (min-width: 320px){
+    .Hero{
+        width: 84%;
+    }
+} */

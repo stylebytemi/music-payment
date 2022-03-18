@@ -1,0 +1,89 @@
+.Pay{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 33.5%;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    bottom: 3px;
+    position: relative;
+    font-family: inherit;
+}
+.Summary{
+    /* font-size: small; */
+    margin: auto;
+}
+/* .Para{
+    padding-bottom: 30px;
+} */
+.ParaDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    margin: 0 10%;
+    border-radius: 20px;
+}
+.Change{
+    /* padding-top: 25px; */
+    color: blue;
+    font-weight: 600;
+}
+.Music{
+    width: auto;
+    height: 50%;
+    /* padding-top: 14px; */
+}
+.Payment{
+    background-color: rgb(1, 1, 211);
+    border-radius: 8px;
+    color: white;
+    width: 75%;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+
+}
+.Cancel{
+    text-decoration: none;
+}
+/* @media (max-width: 768px) {
+    .Pay{
+        margin: 0 31.5%;
+    }
+  } */
+  @media (max-width: 576px){
+    .Pay{
+        margin: 0 15%;
+        /* margin-top: 60px;
+        position: relative; */
+    }
+    .Para{
+        font-size: small;
+    }
+    .Music{
+        width: 40px;
+    }
+    .ParaDiv{
+        height: 60px;
+    }
+    #Annual{
+        font-size: small;
+    }
+    #Year{
+        font-size: small;
+    }
+    .HH{
+        font-size: large;
+    }
+    .Change{
+        font-size: small;
+    }
+}
+/* @media (min-width: 320px){
+    .Pay{
+        margin: 0 8%;
+    }
+} */
